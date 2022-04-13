@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsDialog", "StarWarsDialog.csproj", "{DDECC33B-716C-4029-8087-DD36180642AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDECC33B-716C-4029-8087-DD36180642AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDECC33B-716C-4029-8087-DD36180642AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDECC33B-716C-4029-8087-DD36180642AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDECC33B-716C-4029-8087-DD36180642AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D21A9770-D2B1-46BB-94DC-D738610D8F30}
+	EndGlobalSection
+EndGlobal
