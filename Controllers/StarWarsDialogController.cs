@@ -13,16 +13,6 @@ namespace StarWarsDialog.Controllers
     {
 
         private readonly IWebHostEnvironment _hostingEnvironment;
-        //public StarWarsDialogController(IWebHostEnvironment hostingEnvironment)
-        //{
-        //    _hostingEnvironment = hostingEnvironment;
-        //}
-
-        //private static readonly string[] Summaries = new[]
-        //{
-        //    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        //};
-
         private readonly ILogger<StarWarsDialogController> _logger;
         private readonly IMemoryCache _memoryCache;
 
@@ -71,5 +61,14 @@ namespace StarWarsDialog.Controllers
         {
             return LinesofDialog;
         }
+
+        //[HttpGet("test")]
+        //public StarWarsDialog.Dialog Test()
+        //{
+        //    var d = new StarWarsDialog.Dialog();
+        //    d.Speaker = "Luke";
+        //    d.Line = "Aww, I want blah blah blah power converters.";
+        //    return d;
+        //}
     }
 }
