@@ -10,17 +10,17 @@
   },
   "profiles": {
     "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "starwarsdialog",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+        "commandName": "IISExpress",
+        "launchBrowser": true,
+        "launchUrl": "moviedialog/random/starwars",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        }
     },
-    "StarWarsDialog": {
+    "MovieDialog": {
         "commandName": "Project",
         "launchBrowser": true,
-        "launchUrl": "starwarsdialog",
+        "launchUrl": "moviedialog",
         "applicationUrl": "https://localhost:5001;http://localhost:5000",
         "environmentVariables": {
             "ASPNETCORE_ENVIRONMENT": "Development"
