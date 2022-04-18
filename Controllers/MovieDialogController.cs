@@ -15,20 +15,20 @@ namespace MovieDialog.Controllers
         private readonly ILogger<MovieDialogController> _logger;
         private readonly IMemoryCache _memoryCache;
         private readonly IConfiguration _configuration;
-        private string[] LinesofDialog
-        {
-            get
-            {
-                string[] lines;
-                if (!_memoryCache.TryGetValue("Star Wars", out lines))
-                {
-                    var path = System.IO.Path.Combine(_hostingEnvironment.ContentRootPath, "data", "StarWars_IV.txt");
-                    lines = System.IO.File.ReadAllLines(path);
-                    _memoryCache.Set("Star Wars", lines);
-                }
-                return lines;
-            }
-        }
+        //private string[] LinesofDialog
+        //{
+        //    get
+        //    {
+        //        string[] lines;
+        //        if (!_memoryCache.TryGetValue("Star Wars", out lines))
+        //        {
+        //            var path = System.IO.Path.Combine(_hostingEnvironment.ContentRootPath, "data", "StarWars_IV.txt");
+        //            lines = System.IO.File.ReadAllLines(path);
+        //            _memoryCache.Set("Star Wars", lines);
+        //        }
+        //        return lines;
+        //    }
+        //}
         public MovieDialogController(
             ILogger<MovieDialogController> logger, 
             IWebHostEnvironment hostingEnvironment, 
